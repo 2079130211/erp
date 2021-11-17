@@ -1,0 +1,12 @@
+ $a = 40;
+echo $a++;
+echo ++$a;
+Anup Kumar3:45 PM
+UserModel::create()
+Anup Kumar4:07 PM
+SMS & Emails manage karne ke liye Global Editor.
+id, code, sms_template, email_template, created_at, updated_at,
+code = 'new_order'
+code ='welcome_user'
+Anup Kumar4:11 PM
+title

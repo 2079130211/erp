@@ -1,0 +1,193 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+ 
+
+
+.left_side{
+	width: 17%;
+	position:fixed;
+	top:0;
+	left: 0;
+	height: 100%;
+	z-index: 1000;
+	overflow-y: auto;
+
+
+
+}
+.right_side{
+	width: 83%;
+	margin-left: 17%;
+
+
+}
+
+
+
+@media(max-width:1366px){
+
+	.left_side{
+	width: 20%;
+	 
+
+
+}
+.right_side{
+	width: 80%;
+	margin-left: 20%;
+
+
+}
+}
+
+
+/*media query end*/
+
+.navbar{
+	background: #00092b;
+}
+
+
+
+.navbar a{
+	color: white !important;
+}
+
+
+.quicksend{
+color: black;
+ font-family: 'Quicksand', sans-serif;
+}
+
+
+/*.start color*/
+
+.page-link:focus{
+	background: #ccc;
+	box-shadow: none !important;
+}
+
+
+
+/*coustom bg color*/
+.erpbg-pink{
+	background-color:#fc007a; 
+}
+
+.erpbg-primary{
+	background-color:#7460EE; 
+}
+
+.erpbg-secoundry{
+	background-color:#545B62; 
+}
+
+.erpbg-success{
+	background-color:#06D79C; 
+}
+
+
+.erpbg-danger{
+	background-color:#EF5350; 
+}
+
+.erpbg-warning{
+	background-color:#FFF0D5; 
+}
+.erpbg-info{
+	background-color:#D7E8FD; 
+}
+
+.erpbg-light{
+	background-color:#FBFBFC; 
+}
+.erpbg-dark{
+	background-color:#D4D6D7; 
+}
+.erpbg-navy{
+	background-color:#00092B; 
+}
+
+/*end bg color*/
+/*text-color*/
+
+
+.erptxt-pink{
+	background-color:#fc007a; 
+}
+
+.erptxt-primary{
+	background-color:#7460EE; 
+}
+
+.erptxt-secoundry{
+	background-color:#545B62; 
+}
+
+.erptxt-success{
+	background-color:#06D79C; 
+}
+
+
+.erptxt-danger{
+	background-color:#EF5350; 
+}
+
+.erptxt-warning{
+	background-color:#FFF0D5; 
+}
+.erptxt-info{
+	background-color:#D7E8FD; 
+}
+
+.erptxt-light{
+	background-color:#FBFBFC; 
+}
+.erptxt-dark{
+	background-color:#D4D6D7; 
+}
+.erptxt-navy{
+	background-color:#00092B; 
+}
+
+
+/*loader*/.loader{
+    width: 50px;
+    height: 50px;
+    margin: 50px auto;
+    border: 25px solid #3c40c6;
+    border-top: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 25px 2px #3c40c6;
+    position: relative;
+    animation: animate 1s linear infinite normal;
+}
+.loader:before{
+    content: " ";
+    width: 25px;
+    height: 25px;
+    border: 10px solid #3c40c6;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left:-10px;
+}
+@keyframes animate{
+    0%{
+        opacity: 0.2;
+        transform: rotate(0deg);
+    }
+    50%{
+        opacity: 1;
+        transform: rotate(180deg);
+    }
+    100%{
+        opacity: 0.2;
+        transform: rotate(360deg);
+    }
+} 

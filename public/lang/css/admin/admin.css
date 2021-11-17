@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.welcome_image
+{
+background-image:url(../assets/images/welcome.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+}
+.branding
+{
+text-align: center;
+}
+.branding h1,.branding p,.welcome_form label
+{
+font-family: 'Alata', sans-serif;
+}
+.branding h1
+{
+padding: 0;
+margin: 0;
+font-weight: bold;
+font-size: 50px;
+}
+.branding p
+{
+font-weight: normal;
+word-spacing: 5px;
+letter-spacing: 3px;
+color:#848484;
+}
+.welcome-form-input
+{
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: 1px solid black:
+padding:0;
+}
+.welcome-form-input:focus
+{
+box-shadow: none !important;
+}
+.next_button:hover,.back_button:hover
+{
+color: #848484 !important;
+}
+
+.submit-btn
+{
+	color: white;
+	background-color: #fc6201 !important;
+}
